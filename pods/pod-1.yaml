@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
   - name: container-pod-1
-    image: nginx:latest
+    image: nginx:stable
     ports:
       - containerPort: 80
